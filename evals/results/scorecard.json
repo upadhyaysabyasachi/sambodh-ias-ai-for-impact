@@ -1,0 +1,94 @@
+{
+  "prelims_mcq_quality": {
+    "n": 500,
+    "factual_accuracy_%": 96.4,
+    "single_defensible_answer_%": 94.2,
+    "in_syllabus_%": 99.2,
+    "statement_specificity_%": 92.0,
+    "exam_ready_no_edits_%": 89.2,
+    "distractor_plausibility_mean_1to5": 4.35,
+    "all_correct_frequency": "1 in 19",
+    "inter_rater_cohen_kappa_single_defensible": 0.707
+  },
+  "rag_faithfulness": {
+    "n": 300,
+    "faithfulness_%": 95.7,
+    "citation_accuracy_%": 93.3,
+    "answerable_from_source_%": 97.3,
+    "hallucinated_citation_%": 1.7
+  },
+  "mains_subjective": {
+    "n": 120,
+    "score_MAE_/10": 0.607,
+    "spearman_rho": 0.843,
+    "within_1_band_%": 90.8,
+    "qwk_vs_experts": 0.792,
+    "factcheck_precision": 0.936,
+    "factcheck_recall": 0.88,
+    "false_docks_presentational_only": 0,
+    "factcheck_claims": 103
+  },
+  "mistake_classification": {
+    "n": 200,
+    "accuracy_%": 87.5,
+    "macro_f1": 0.868
+  },
+  "translation_quality": {
+    "n": 240,
+    "languages": [
+      "bn",
+      "hi",
+      "kn",
+      "mr",
+      "or",
+      "pa",
+      "ta",
+      "te"
+    ],
+    "adequacy_mean_1to5": 4.46,
+    "fluency_mean_1to5": 4.32,
+    "term_preservation_%": 99.3,
+    "script_integrity_%": 100.0
+  },
+  "handwriting_ocr": {
+    "n": 100,
+    "CER_%": 2.7,
+    "WER_%": 11.6,
+    "legible_only_CER_%": 1.3,
+    "mains_grade_delta_vs_clean_mean": 0.35
+  },
+  "safety_adversarial": {
+    "n": 120,
+    "overall_pass_%": 97.5,
+    "ambiguous_mcq_pass_%": 94.0,
+    "jailbreak_pass_%": 100.0,
+    "pii_injection_pass_%": 100.0,
+    "prompt_injection_pass_%": 100.0
+  },
+  "off_syllabus_audit": {
+    "n": 1000,
+    "pre_gate_off_syllabus_%": 8.1,
+    "post_gate_off_syllabus_%": 0.5
+  },
+  "latency_reliability": {
+    "n_calls": 2000,
+    "eval_p50_s": 6.2,
+    "eval_p95_s": 10.8,
+    "fallback_trigger_%": 3.4,
+    "success_%": 99.8,
+    "translation_cache_hit_%": 91.8
+  },
+  "user_validation": {
+    "n_participants": 12,
+    "tier2_3_participants": 8,
+    "task_success_%": 91.7,
+    "sus_mean": 82.5,
+    "feedback_trust_mean_1to5": 4.48,
+    "weak_concept_mastery_pre": 0.35,
+    "weak_concept_mastery_post_4wk": 0.69
+  },
+  "_meta": {
+    "expert_labelled_gold_total": 1580,
+    "note": "Result labels SIMULATED; methodology real. Latency from logged-call sample."
+  }
+}

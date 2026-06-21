@@ -1,0 +1,18 @@
+{
+  "name": "Sambodh IAS — Phase 2 evaluation gold set",
+  "seed": 20260621,
+  "expert_labelled_gold_total": 1580,
+  "slice_counts": {
+    "prelims_mcq_quality": 500,
+    "rag_faithfulness": 300,
+    "mains_subjective": 120,
+    "mistake_classification": 200,
+    "translation_quality": 240,
+    "handwriting_ocr": 100,
+    "safety_adversarial": 120,
+    "off_syllabus_audit": 1000,
+    "latency_sample": 2000,
+    "user_validation": 12
+  },
+  "note": "Result labels are simulated/representative; test-set design is real. off_syllabus_audit and latency_sample are supporting audits, not part of the 1,580 gold set."
+}
