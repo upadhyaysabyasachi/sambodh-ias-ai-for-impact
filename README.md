@@ -2,7 +2,7 @@
 
 **A self-paced, AI-powered preparation platform for India's UPSC Civil Services Examination.**
 
-🔗 **Live platform:** https://sambodh-ias.in  ·  Mains 2026 module: https://sambodh-ias.in/mains-2026
+🔗 **Live platform:** https://sambodh-ias.in
 
 > Hi, Try Sambodh IAS — an AI-powered UPSC prep platform. We do adaptive Prelims PYQ practice, daily current affairs from The Hindu & Indian Express, and Mains answer evaluation. Link — https://sambodh-ias.in
 
@@ -12,8 +12,7 @@
 > product source private, this repo intentionally contains **only** (a) this README,
 > (b) the **runnable evaluation suite** (`evals/`), and (c) the **pitch deck**
 > (`Sambodh IAS — AI for Impact (Phase 2).pdf`). The application is **live and
-> testable at https://sambodh-ias.in**; full source is available to organizers on
-> request. The "Running the servers" section below documents how the system is run;
+> testable at https://sambodh-ias.in**. The "Running the servers" section below documents how the system is run;
 > the **evaluation harness in `evals/` runs standalone** (Python stdlib only) so you
 > can reproduce every metric in this README yourself.
 
